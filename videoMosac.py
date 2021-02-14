@@ -18,6 +18,7 @@ def add_mosac(video,start_time_s,end_time_s,img_path,postition_x_y):
     result = mp.CompositeVideoClip([video, logo])
     return result
 if __name__ == '__main__':
+    #视频所在文件夹地址 本程序填入这一个参数即可
     fileList = wl("F:\DropWaterSign")
     for l in fileList:
         # 这里写入mp4源文件路径
